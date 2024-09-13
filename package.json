@@ -28,6 +28,7 @@
     "zustand": "^4.5.2"
   },
   "devDependencies": {
+    "@nrwl/linter": "^19.7.3",
     "@nrwl/node": "^19.7.3",
     "@nx/esbuild": "19.7.3",
     "@nx/eslint": "19.7.3",
