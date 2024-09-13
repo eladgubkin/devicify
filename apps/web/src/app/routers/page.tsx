@@ -1,9 +1,9 @@
 import { ContentLayout } from '@web/components/admin-panel/content-layout';
 
-export default function HomePage() {
+export default function AccountPage() {
   return (
-    <ContentLayout title="Overview">
-      <h1>Overview</h1>
+    <ContentLayout title="Routers">
+      <h1>Routers</h1>
     </ContentLayout>
   );
 }
