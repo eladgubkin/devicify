@@ -13,31 +13,6 @@
         "buildTarget": "web:build",
         "dev": true
       }
-    },
-    "build": {
-      "executor": "@nrwl/next:build",
-      "outputs": ["{options.outputPath}"],
-      "options": {
-        "outputPath": "dist/apps/web"
-      }
-    },
-    "start": {
-      "executor": "@nrwl/next:start",
-      "options": {
-        "buildTarget": "web:build"
-      }
-    },
-    "export": {
-      "executor": "@nrwl/next:export",
-      "options": {
-        "buildTarget": "web:build"
-      }
-    },
-    "lint": {
-      "executor": "@nrwl/linter:eslint",
-      "options": {
-        "lintFilePatterns": ["apps/web/**/*.{ts,tsx,js,jsx}"]
-      }
     }
   }
 }
