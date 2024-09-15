@@ -1,12 +1,10 @@
-import { PanelsTopLeft } from 'lucide-react';
-import Link from 'next/link';
-
+import { Button, cn } from '@libs/ui-shadcn';
 import { Menu } from '@web/components/admin-panel/menu';
 import { SidebarToggle } from '@web/components/admin-panel/sidebar-toggle';
-import { Button } from '@web/components/ui/button';
 import { useSidebarToggle } from '@web/hooks/use-sidebar-toggle';
 import { useStore } from '@web/hooks/use-store';
-import { cn } from '@web/lib/utils';
+import { PanelsTopLeft } from 'lucide-react';
+import Link from 'next/link';
 
 export function Sidebar() {
   const sidebar = useStore(useSidebarToggle, (state) => state);

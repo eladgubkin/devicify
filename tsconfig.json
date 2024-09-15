@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@libs/ui-shadcn": ["libs/ui-shadcn/src/index.ts"],
+      "@libs/ui-shadcn/*": ["libs/ui-shadcn/src/*"]
+    }
+  }
+}

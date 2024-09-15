@@ -1,20 +1,19 @@
 'use client';
 
-import { Ellipsis, LogOut } from 'lucide-react';
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-
-import { CollapseMenuButton } from '@web/components/admin-panel/collapse-menu-button';
-import { Button } from '@web/components/ui/button';
-import { ScrollArea } from '@web/components/ui/scroll-area';
 import {
+  Button,
+  cn,
+  ScrollArea,
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from '@web/components/ui/tooltip';
+} from '@libs/ui-shadcn';
+import { CollapseMenuButton } from '@web/components/admin-panel/collapse-menu-button';
 import { getMenuList } from '@web/lib/menu-list';
-import { cn } from '@web/lib/utils';
+import { Ellipsis, LogOut } from 'lucide-react';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 interface MenuProps {
   isOpen: boolean | undefined;

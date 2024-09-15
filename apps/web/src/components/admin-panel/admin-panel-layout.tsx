@@ -1,9 +1,9 @@
 'use client';
 
+import { cn } from '@libs/ui-shadcn';
 import { Sidebar } from '@web/components/admin-panel/sidebar';
 import { useSidebarToggle } from '@web/hooks/use-sidebar-toggle';
 import { useStore } from '@web/hooks/use-store';
-import { cn } from '@web/lib/utils';
 
 export default function AdminPanelLayout({
   children,

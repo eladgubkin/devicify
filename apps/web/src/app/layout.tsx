@@ -1,10 +1,8 @@
-import { GeistSans } from 'geist/font/sans';
-import type { Metadata } from 'next';
-
-import './globals.css';
-
 import AdminPanelLayout from '@web/components/admin-panel/admin-panel-layout';
 import { ThemeProvider } from '@web/providers/theme-provider';
+import { GeistSans } from 'geist/font/sans';
+import type { Metadata } from 'next';
+import './globals.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL(

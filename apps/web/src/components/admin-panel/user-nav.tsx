@@ -1,11 +1,10 @@
 'use client';
 
-import { LayoutGrid, LogOut, User } from 'lucide-react';
-import Link from 'next/link';
-
-import { Avatar, AvatarFallback, AvatarImage } from '@web/components/ui/avatar';
-import { Button } from '@web/components/ui/button';
 import {
+  Avatar,
+  AvatarFallback,
+  AvatarImage,
+  Button,
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuGroup,
@@ -13,13 +12,13 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from '@web/components/ui/dropdown-menu';
-import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from '@web/components/ui/tooltip';
+} from '@libs/ui-shadcn';
+import { LayoutGrid, LogOut, User } from 'lucide-react';
+import Link from 'next/link';
 
 export function UserNav() {
   return (
